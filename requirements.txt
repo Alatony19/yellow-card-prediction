@@ -1,0 +1,25 @@
+# Versions the project was developed and tested with (Python 3.11).
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.5
+xgboost>=2.1
+pyarrow>=14
+scipy>=1.11
+joblib>=1.2
+matplotlib>=3.8
+
+# notebooks
+nbformat>=5.9
+nbconvert>=7.10
+jupyter
+
+# tests
+pytest>=7.4
+
+# only for pipeline/scrape_fbref.py
+selenium>=4.28
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# only for pipeline/fetch_understat.py - install in a separate virtual environment:
+#   soccerdata

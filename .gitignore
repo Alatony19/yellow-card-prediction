@@ -1,0 +1,18 @@
+# data and generated files are never committed (see README, "Getting the data")
+data/
+data_synthetic/
+artifacts/
+artifacts_synthetic/
+match_model/artifacts/
+*.joblib
+*.parquet
+
+# python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
